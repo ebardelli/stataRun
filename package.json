@@ -3,7 +3,7 @@
     "icon": "images/icon.png",
     "displayName": "stataRun",
     "description": "Run Stata Code from vsCode",
-    "version": "2.0.3",
+    "version": "2.1.0",
     "publisher": "Yeaoh",
     "engines": {
         "vscode": "^1.25.0"
