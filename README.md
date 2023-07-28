@@ -65,7 +65,15 @@ Only tested with macOS so far. Please and try to create issues if any. Feel free
 
 ## Installation
 
-Install as a normal vscode extension by searcing for stataRun in the vscode extension marketplace
+Install as a normal vscode extension by searching for stataRun in the vscode extension marketplace
+
+## How to compile
+
+You caon compile the extension locally and manually install it in your version of vscode with:
+
+ - `npm install --save-exact` to install stataRun's dependencies
+ - `vsce package --no-yarn` to compile the extension to a `.vsix` extension package
+
 ## Release
 2.0.1
   - Improvement for working on Windows and Linux
