@@ -1,6 +1,6 @@
 # Description
 
-stataRun allow you to run  stata codes (.do .ado) and commands from within Visual Studio Code editor. Thus you can take  advantage of an editor for syntax highlighting. You may want to install [Stata-Enhanced](https://marketplace.visualstudio.com/items?itemName=kylebarron.stata-enhanced) and [Stata-Language](https://marketplace.visualstudio.com/items?itemName=mdob2k.stata-language) for syntax highlighting and other features
+stataRun allow you to run stata codes (.do .ado) and commands from within Visual Studio Code editor. Thus, you can take advantage of an editor for syntax highlighting. You may want to install [Stata-Enhanced](https://marketplace.visualstudio.com/items?itemName=kylebarron.stata-enhanced) and [Stata-Language](https://marketplace.visualstudio.com/items?itemName=mdob2k.stata-language) for syntax highlighting and other features
 
 ## Features
 
@@ -26,7 +26,7 @@ Installation instructions for Windows basically follows the original Atom [stata
 
 2. Install `Node`. The original instructions indicated to [install this specific version of Node](https://nodejs.org/dist/v7.4.0/node-v7.4.0-x64.msi) with default settings. I followed the instructions and haven't tried it with other versions.
 
-3. The `stataRun` extension needs a module called `wimax` to be compiled into a binary file. To do this `Node` needs `windows-build-tools` with Python2.7 and Visual Studio compiler packages. The installation takes some time (over 20 min. in my case) and couple of GB of disk space. To install it open up an administrator PowerShell (you can right click on the Windows icon at the bottom left and select "Windows PowerShell (Admin)") and type in:
+3. The `stataRun` extension needs a module called `wimax` to be compiled into a binary file. To do this `Node` needs `windows-build-tools` with Python2.7 and Visual Studio compiler packages. The installation takes some time (over 20 min. in my case) and a couple of GB of disk space. To install it open up an administrator PowerShell (you can right-click on the Windows icon at the bottom left and select "Windows PowerShell (Admin)") and type in:
 
     ```
     npm install --global --production windows-build-tools
@@ -61,7 +61,7 @@ Installation instructions for Windows basically follows the original Atom [stata
 
 ## Known Issues
 
-Only tested with Mac Os so far. Please and try create issues if any. Feel free to contributes.
+Only tested with macOS so far. Please and try to create issues if any. Feel free to contribute.
 
 ## Installation
 
